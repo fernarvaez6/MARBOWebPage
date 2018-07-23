@@ -1275,11 +1275,21 @@ input[type="text"] {
   box-shadow: none !important;
   outline: none !important;
 }
+.btn-serv{
+    background-color: #FFAE2C;
+    color: white;
+    border-bottom-style: none
+}
+
+.btn-serv:hover{
+    background: #F39C1F!important;
+    color: white;
+}
 
 .btn-primary {
   background: #87C1F3;
   color: #fff;
-  border: 2px solid #87C1F3;
+  
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #2C9EFF !important;
@@ -1288,7 +1298,7 @@ input[type="text"] {
 .btn-primary.btn-outline {
   background: transparent;
   color: #87C1F3;
-  border: 2px solid #87C1F3;
+  
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
   background: #87C1F3;
