@@ -138,6 +138,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1 {
     display: none;
+      
   }
 }
 .fh5co-nav ul {
@@ -593,10 +594,12 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transform: translate3d(0, 15px, 0);
   transform: translate3d(0, 15px, 0);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 100px) {
   .work .desc {
     opacity: 1;
     background: transparent !important;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
   .work .desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
@@ -667,7 +670,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   height: 270px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 100px) {
   .fh5co-blog .blog-bg {
     height: 300px;
   }
