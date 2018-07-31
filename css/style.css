@@ -489,7 +489,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-blog,
 #fh5co-counter,
 #fh5co-footer {
-  padding: 6em 3em;
+  padding: 1em 1em;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -500,7 +500,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-blog,
   #fh5co-counter,
   #fh5co-footer {
-    padding: 3em 1em;
+    padding: 1em 1em;
   }
 }
 
@@ -987,7 +987,8 @@ input[type="text"] {
 }
 
 #fh5co-footer {
-  margin-top: 20px !important;
+  margin-top: none !important;
+    background-color: #383838;
 }
 #fh5co-footer .fh5co-footer-links {
   padding: 0;
@@ -995,7 +996,7 @@ input[type="text"] {
 }
 @media screen and (max-width: 768px) {
   #fh5co-footer .fh5co-footer-links {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 }
 #fh5co-footer .fh5co-footer-links li {
@@ -1012,7 +1013,7 @@ input[type="text"] {
   text-decoration: underline;
 }
 #fh5co-footer h4 {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   font-weight: 700;
   font-size: 13px;
   letter-spacing: 1px;
@@ -1020,7 +1021,7 @@ input[type="text"] {
 }
 #fh5co-footer .copyright {
   display: block;
-  margin-top: 3em;
+  margin-top: 0em;
 }
 #fh5co-footer .copyright .block {
   display: block;
@@ -1029,8 +1030,8 @@ input[type="text"] {
 #fh5co-offcanvas {
   position: absolute;
   z-index: 1901;
-  width: 270px;
-  background: black;
+  width: 170px;
+  background: white;
   top: 0;
   right: 0;
   top: 0;
@@ -1038,7 +1039,7 @@ input[type="text"] {
   padding: 75px 40px 40px 40px;
   overflow-y: auto;
   display: none;
-  -moz-transform: translateX(270px);
+  -moz-transform: translateX(200px);
   -webkit-transform: translateX(270px);
   -ms-transform: translateX(270px);
   -o-transform: translateX(270px);
@@ -1060,10 +1061,11 @@ input[type="text"] {
   transform: translateX(0px);
 }
 #fh5co-offcanvas a {
-  color: rgba(255, 255, 255, 0.5);
+  color: black;
+    font-size: 20px;
 }
 #fh5co-offcanvas a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: #87C1F3;
 }
 #fh5co-offcanvas ul {
   padding: 0;
@@ -1113,7 +1115,7 @@ input[type="text"] {
 .gototop {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  left: 20px;
   z-index: 999;
   opacity: 0;
   visibility: hidden;
@@ -1283,7 +1285,7 @@ input[type="text"] {
 
 .btn-serv:hover{
     background: #F39C1F!important;
-    color: white;
+    color: white ;
 }
 
 .btn-primary {
