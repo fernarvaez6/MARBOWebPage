@@ -64,6 +64,10 @@ p {
     margin-bottom: 20px;
 }
 
+h2 .paquetes{
+    margin-top: 5%;
+}
+
 h1,
 h2,
 h3,
@@ -1717,46 +1721,56 @@ input[type="text"] {
 .modal {
     display: none;
     /* Hidden by default */
-    position: fixed;
+    position:fixed;
     /* Stay in place */
     z-index: 1;
     /* Sit on top */
-    padding-top: 100px;
+    padding-top: 20px;
     /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
+    padding-left: 10px;
+    
+    
+    bottom: 10%;
+    
+    top: 10%;
+    
+    left: 20%;
+    
+    right: 20%;
+    width: auto;
     /* Full width */
-    height: 100%;
+    height: auto;
     /* Full height */
-    overflow: auto;
+    overflow:auto;
     /* Enable scroll if needed */
-    background-color: white;
+    background-color: #252525;
     /* Fallback color */
-    background-color: rgba(255, 255, 255, .9);
+    
     /* Black w/ opacity */
+    margin: 0 auto;
 }
 
 /* Modal Content */
 .modal-content {
-    background-color: #fefefe;
+    background-color: white;
     margin: auto;
+    
     padding: auto;
-    border: 1px solid #888;
-    width: 80%;
+    border: 0px solid #888;
+    width: auto;
 }
 
 /* The Close Button */
-.close {
-    color: black;
-    float: right;
-    font-size: 28px;
+.closeModal {
+    color: white;
+    float:right;
+    font-size: 40px;
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
-    color: #000;
+.closeModal:hover,
+.closeModal:focus {
+    color: grey;
     text-decoration: none;
     cursor: pointer;
 }

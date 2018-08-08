@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Marbo - Contacto</title>
+    <title>Marbo - Servicios</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Marbo agencia de marketing digital. Somos una empresa orgullosamente mexicana creando importantes conexiones entre empresas y personas gracias a la creatividad de contenido y innovación. La empresa es creada con el propósito de combinar las habilidades digitales y creativas con el mejor contenido para satisfacer de la mejor manera las necesidades de nuestros clientes." />
     <meta name="keywords" content="MARBO" />
@@ -24,7 +24,7 @@
     <meta name="keywords" content="Pagina web" />
     <meta name="keywords" content="Landing page" />
     <meta name="author" content="MARBO_Mx" />
-    <link rel=”canonical” href=”http://www.marbomx.com/Contacto.html” />
+    <link rel=”canonical” href=”http://www.marbomx.com/Servicios.html” />
     
 
 
@@ -92,15 +92,15 @@
             <div class="container-wrap">
                 <div class="top-menu">
                     <div class="row">
-                        <div class="col-xs-2">
+                        <div class="col-xs-2" >
                             <div id="fh5co-logo"><a href="index.html"><img id="image_logo" src="images/Logo.png" height="90px" width="170px"></a></div>
                         </div>
                         <div class="col-xs-10 text-right menu-1">
                             <ul>
                                 <li><a href="index.html">Inicio</a></li>
-                                <li><a href="Servicios.html">Servicios</a></li>
+                                <li class="active"><a href="Servicios.html">Servicios</a></li>
 
-                                <li class="active"><a href="Contacto.html">Contacto</a></li>
+                                <li ><a href="Contacto.html">Contacto</a></li>
                                 <li><a href="http://blog.marbomx.com">Blog</a></li>
                             </ul>
                         </div>
@@ -111,43 +111,25 @@
         </nav>
         <div class="container-wrap">
 
-            <img src="images/contacto.jpg" width="100%" height="300px">
+           
             <div id="fh5co-contact">
 
                 <div class="row animate-box">
-                    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading" style="margin-top: 50px">
-
-                        <h2>Conócenos</h2>
-                        <p>MARBO inició con la necesidad de las empresas de obtener más audiencia. La realidad es que el marketing digital está en un clímax nunca antes visto, Es por eso que MARBO ayuda a conectar a las empresas con las personas adecuadas.</p>
-                    </div>
-                </div>
-                <div class="row animate-box">
                     <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-                        <h2>¿Quiénes somos?</h2>
-                        <p>MARBO es una empresa orgullosamente mexicana, creando importantes conexiones entre marcas y personas gracias a la creatividad de contenido e innovación</p>
-                    </div>
-                </div>
-                <div class="row animate-box">
-                    <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-                        <h2>¿Tienes alguna duda?</h2>
+                        <br>
+                        <h2>Solicitar cotización</h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3 col-md-push-1 animate-box">
-                        <h3>Direccion</h3>
-                        <ul class="contact-info">
-                            <li><i class="icon-location4"></i>Av. Heroico Colegio Militar 4700, Col Nombre de Dios, Chihuahua, Chih., México.</li>
-                            <li><i class="icon-phone3"></i>+52 614-213-1686</li>
-                            <li><i class="icon-phone3"></i>+52 614-174-5619</li>
-                            <li><i class="icon-location3"></i><a href="mailto:hola@marbomx.com">hola@marbomx.com</a></li>
-                        </ul>
+                    <div class="col-md-4 col-md-push-1 animate-box" style="margin-left: auto; margin-right: auto; ">
+                        <img name="image-swap" src="images/ImgServicios/precio1.jpg">
                     </div>
 
-                    <div class="col-md-7 col-md-push-1 animate-box">
+                    <div class="col-md-8 col-md-push-1 animate-box">
                         <div class="row" id="form_div" style="display:">
 
                             <form class="gform pure-form pure-form-stacked" method="POST" action="https://script.google.com/macros/s/AKfycbxTO0QFCmeMSkZXHgQiO6JyJafq34Ndkxmpc3tETg/exec">
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="form-group">
                                         <fieldset class="pure-group">
                                             <label for="name">Nombre: </label>
@@ -155,7 +137,7 @@
                                         </fieldset>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="form-group">
                                         <fieldset class="pure-group">
                                             <label for="email">Tu correo electronico:</label>
@@ -164,19 +146,35 @@
 
                                     </div>
                                 </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <fieldset class="pure-group">
+                                            <label for="Paquete">Selecciona tu paquete:</label>
+
+                                            <select class="form-control" id="paquetes" onchange="setImage(this);">
+                                                  <option value="images/ImgServicios/precio1.jpg" selected>Básico</option>
+                                                  <option value="images/ImgServicios/precio2.jpg">Estandar</option>
+                                                  <option value="images/ImgServicios/precio3.jpg">Premium</option>
+                                               
+                                                </select>
+                                        </fieldset>
+
+                                    </div>
+                                </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <fieldset class="pure-group">
                                             <label for="message">Mensaje: </label>
-                                            <textarea class="form-control" id="message" name="message" rows="7" cols="30" placeholder="Favor de especificar lo que necesitas..." required></textarea>
+                                            <textarea class="form-control" id="message" name="message" rows="5" cols="2" placeholder="Favor de especificar lo que necesitas..." required></textarea>
                                         </fieldset>
-                                        <input type="submit" value="submit" id="submit" class="btn btn-primary btn-modify" onsubmit="showHide()">
+                                        <input type="submit" value="submit" id="submit" class="btn btn-primary btn-modify">
+                                        <a class="btn btn-primary btn-modify" href="Servicios.html">Volver a servicios</a>
 
                                     </div>
 
-                                </div>
-                                <div class="thankyou_message fh5co-heading text-center" style="display:none;">
-                                    <h2>Gracias por contactarte con nosotros!<br> Te responderemos lo antes posible.<br>MARBO</h2><br>
+                                </div >
+                                <div class="thankyou_message col-md-12 text-center " style="display:none;">
+                                    <h2>Gracias por solicitar una cotización!<br> Te responderemos lo antes posible.<br>MARBO</h2><br>
                                     <a class="btn btn-primary btn-modify" href="index.html">Volver a inicio</a>
                                 </div>
 
@@ -233,7 +231,14 @@
         <div class="gototop js-top">
             <a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
         </div>
-
+        <script type="text/javascript">
+            
+            function setImage(select){
+            var image = document.getElementsByName("image-swap")[0];
+            image.src = select.options[select.selectedIndex].value;
+                                        }
+        
+        </script>
         <!-- jQuery -->
         <script src="js/jquery.min.js">
         </script>
