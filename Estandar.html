@@ -25,7 +25,7 @@
     <meta name="keywords" content="Landing page" />
     <meta name="author" content="MARBO_Mx" />
     <link rel=”canonical” href=”http://www.marbomx.com/Servicios.html” />
-    
+
 
 
     <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400" rel="stylesheet">
@@ -55,6 +55,25 @@
         };
     </script>
     <script src="https://static.helloumi.com/umiwebchat/umiwebchat.js?v=1533579050766" defer>
+    </script>
+
+
+    <!-- Hotjar Tracking Code for www.marbomx.com -->
+    <script>
+        (function(h, o, t, j, a, r) {
+            h.hj = h.hj || function() {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 976067,
+                hjsv: 6
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
 
     <!-- Animate.css -->
@@ -100,7 +119,7 @@
                                 <li><a href="index.html">Inicio</a></li>
                                 <li class="active"><a href="Servicios.html">Servicios</a></li>
 
-                                <li ><a href="Contacto.html">Contacto</a></li>
+                                <li><a href="Contacto.html">Contacto</a></li>
                                 <li><a href="http://blog.marbomx.com">Blog</a></li>
                             </ul>
                         </div>
@@ -111,7 +130,7 @@
         </nav>
         <div class="container-wrap">
 
-           
+
             <div id="fh5co-contact">
 
                 <div class="row animate-box">
@@ -152,11 +171,11 @@
                                             <label for="Paquete">Selecciona tu paquete:</label>
 
                                             <select class="form-control" id="paquetes" name="Paquete" onchange="setImage(this);">
-                                                  <option value="images/ImgServicios/precio1.jpg">Básico</option>
-                                                  <option value="images/ImgServicios/precio2.jpg" selected>Estandar</option>
-                                                  <option value="images/ImgServicios/precio3.jpg">Premium</option>
-                                               
-                                                </select>
+                                                <option value="images/ImgServicios/precio1.jpg">Básico</option>
+                                                <option value="images/ImgServicios/precio2.jpg" selected>Estandar</option>
+                                                <option value="images/ImgServicios/precio3.jpg">Premium</option>
+
+                                            </select>
                                         </fieldset>
 
                                     </div>
@@ -167,12 +186,13 @@
                                             <label for="message">Mensaje: </label>
                                             <textarea class="form-control" id="message" name="message" rows="5" cols="2" placeholder="Favor de especificar lo que necesitas..." required></textarea>
                                         </fieldset>
-                                        <input type="submit" value="submit" id="submit" class="btn btn-primary btn-modify" onsubmit="showHide()">
+                                        <br>
+                                        <input type="submit" value="submit" id="submit" style="margin-right: 10px" class="btn btn-primary btn-modify">
                                         <a class="btn btn-primary btn-modify" href="Servicios.html">Volver a servicios</a>
 
                                     </div>
 
-                                </div >
+                                </div>
                                 <div class="thankyou_message col-md-12 text-center " style="display:none;">
                                     <h2>Gracias por solicitar una cotización!<br> Te responderemos lo antes posible.<br>MARBO</h2><br>
                                     <a class="btn btn-primary btn-modify" href="index.html">Volver a inicio</a>
@@ -232,12 +252,10 @@
             <a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
         </div>
         <script type="text/javascript">
-            
-            function setImage(select){
-            var image = document.getElementsByName("image-swap")[0];
-            image.src = select.options[select.selectedIndex].value;
-                                        }
-        
+            function setImage(select) {
+                var image = document.getElementsByName("image-swap")[0];
+                image.src = select.options[select.selectedIndex].value;
+            }
         </script>
         <!-- jQuery -->
         <script src="js/jquery.min.js">
